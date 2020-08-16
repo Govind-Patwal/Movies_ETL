@@ -121,6 +121,7 @@ venv.bak/
 /site
 
 config.py
+ratings.csv
 
 # mypy
 .mypy_cache/
