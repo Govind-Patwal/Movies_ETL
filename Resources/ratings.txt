@@ -1,0 +1,17 @@
+=========================================================================================
+
+Source URL: https://www.kaggle.com/rounakbanik/the-movies-dataset/data?select=ratings.csv
+
+=========================================================================================
+
+ratings.csv file is too big to be uploaded both in original and zipped version
+
+
+Uploading via Gitbash gives the error below
+----------------------------------------------------------------------------------------
+remote: error: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.
+remote: error: Trace: 2abdb3b4c3d9f95dd796d63e0eb668b2
+remote: error: See http://git.io/iEPt8g for more information.
+remote: error: File Resources/ratings.zip is 169.99 MB; this exceeds GitHub's file size limit of 100.00 MB
+remote: error: File Resources/ratings.csv is 651.86 MB; this exceeds GitHub's file size limit of 100.00 MB
+----------------------------------------------------------------------------------------
