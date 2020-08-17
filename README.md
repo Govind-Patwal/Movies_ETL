@@ -1,9 +1,14 @@
 # Movies ETL
 
 ## Project Overview
+Amazing Prime Video is a platform for streaming movies and TV shows on ***Amazing Prime***, the world's largest online retailer. The Amazing Prime video team would like to develop an algorithm which would predict which low-budget movie being released would become popular, so that they can buy the streaming rights at a bargain. 
 
+To inspire the team, have some fun and connect with the coding community, Amazing Prime has decided to sponsor a Hackathon, providing a clean dataset of movie data and asking participants to predict the popularity pictures. 
 
+Britta, a member of the Amazin Prime video team, has been tasked with creating the datasets for the Hackathons. There are two data sources, a scrape of **wikipedia** for all moviese released since 1990, and rating data from **MovieLens** website.
+She will need to extract the data from the two sources, transform into one clean dataset and finally load that data into a SQL table.
 
+Britta wants help with this.
 
 ## Purpose of this Assignment
 
