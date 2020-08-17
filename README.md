@@ -20,16 +20,24 @@ Now, Amazing Prime wants to create an automated pipeline that takes in new data,
 
 ### Deliverable 1
 
+1. In Step 1, create the function to read in the three files and give it a name.
+2. In Step 2, read in the Kaggle metadata and MovieLens ratings CSV files as Pandas DataFrames.
+3. In Step 3, open the Wikipedia JSON file and use the json.load() function to convert the JSON data to raw data.
+4. In Step 4, read in the raw Wikipedia movie data as a Pandas DataFrame.
+5. In Step 5, use the code provided to return the three DataFrames.
+6. In Step 6, use the variables provided to create a path to the Wikipedia data, the Kaggle metadata, and the MovieLens rating data files.
+7. In Step 7, set the three variables in Step 6 equal to the function created in Step 1.
+8. In Step 8, set the DataFrames from the return statement equal to the file names in Step 6. In this step, you are reassigning the variables created in Step 6 to the variables in the return statement.
+9. In Steps 9-11, check that all three files are converted to a DataFrame. 
 
+    **Image 1 (below): wiki_movies_df**
+    ![wiki_movies_df](./Resources/Deliverable1_wiki_movies_df.png)
 
-**Image 1 (below): wiki_movies_df**
-![wiki_movies_df](./Resources/Deliverable1_wiki_movies_df.png)
+    **Image 2 (below): kaggle_metadata**
+    ![kaggle_metadata](./Resources/Deliverable1_kaggle_metadata.png)
 
-**Image 2 (below): kaggle_metadata**
-![kaggle_metadata](./Resources/Deliverable1_kaggle_metadata.png)
-
-**Image 3 (below): ratings**
-![ratings](./Resources/Deliverable1_ratings.png)
+    **Image 3 (below): ratings**
+    ![ratings](./Resources/Deliverable1_ratings.png)
 
 
 
