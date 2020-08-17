@@ -105,15 +105,22 @@ Now, Amazing Prime wants to create an automated pipeline that takes in new data,
 
 ### Deliverable 4
 
-**Image 9 (below): Loading ratings to PostgresSQL**
 
-![Loading ratings to PostgresSQL](./Resources/Deliverable4_loading_ratings_to_SQL.PNG)
+1. In the first cell, uncomment the `# from config import db_password` so this code is working.
+2. Remove the return statement, `return wiki_movies_df, movies_with_ratings_df, movies_df`.
+3. After Step 9, `Transform and merge the ratings DataFrame`, add the code to create the connection to the PostgreSQL database, then add the `movies_df` DataFrame to a SQL database.
+**Hint**: Use 'replace' for the if_exists parameter so that the movies_df DataFrame data won't be added to the table again.
+4. Before reading in the MovieLens `rating` CSV data, drop the ratings table in pgAdmin.
+5. Add the code that prints out the elapsed time to import each row.
+6. Run the program.
 
+    **Image 9 (below): Loading ratings to PostgresSQL**
+    ![Loading ratings to PostgresSQL](./Resources/Deliverable4_loading_ratings_to_SQL.PNG)
 
-**Image 10 (below): movies queries**
+7. After the program has finished, run a query on the PostgreSQL database that counts all the columns for the `movies` and `ratings` tables.
 
-![Loading ratings to PostgresSQL](./Resources/movies_query.png)
+    **Image 10 (below): movies queries**
+    ![Loading ratings to PostgresSQL](./Resources/movies_query.png)
 
-**Image 11 (below): ratings queries**
-
-![Loading ratings to PostgresSQL](./Resources/ratings_query.png)
+    **Image 11 (below): ratings queries**
+    ![Loading ratings to PostgresSQL](./Resources/ratings_query.png)
