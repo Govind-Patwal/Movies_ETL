@@ -22,7 +22,7 @@ Now, Amazing Prime wants to create an automated pipeline that takes in new data,
 
 1. In Step 1, create the function to read in the three files and give it a name.
 2. In Step 2, read in the Kaggle metadata and MovieLens ratings CSV files as Pandas DataFrames.
-3. In Step 3, open the Wikipedia JSON file and use the json.load() function to convert the JSON data to raw data.
+3. In Step 3, open the Wikipedia JSON file and use the `json.load()` function to convert the JSON data to raw data.
 4. In Step 4, read in the raw Wikipedia movie data as a Pandas DataFrame.
 5. In Step 5, use the code provided to return the three DataFrames.
 6. In Step 6, use the variables provided to create a path to the Wikipedia data, the Kaggle metadata, and the MovieLens rating data files.
@@ -44,9 +44,31 @@ Now, Amazing Prime wants to create an automated pipeline that takes in new data,
 
 ### Deliverable 2
 
+1. In Step 1, add the code that your created for Britta for the clean movie function that takes in the argument "movie".
+2. In Step 2, add the function you created in Deliverable 1 that reads in the three data files.
+3. In Step 3, inside the function you created in Deliverable 1, remove the code that creates the `wiki_movies_df` DataFrame from the `wiki_movies_raw` file, then write a list comprehension that filters out TV shows from the `wiki_movies_raw` file.
+4. In Step 4, write a list comprehension to iterate through the cleaned wiki movies list that you created in Step 3.
+5. In Step 5, read in the cleaned movies list from Step 4 as a DataFrame.
+6. In Step 6, write a `try-except` block that will catch errors while extracting the IMDb IDs with a regular expression string and dropping any `imdb_id` duplicates. If there is an error, capture and print the exception.
+7. In Step 7, write a list comprehension to keep the columns that have non-null values from the DataFrame created in Step 5, then create a `wiki_movies_df` DataFrame from the list.
+8. In Step 8, create a variable that will hold all the non-null values from the "Box office" column.
+9. In Step 9, convert the box office data created in Step 8 to string values using the lambda and join functions.
+10. In Step 10, write a regular expression to match the six elements of `form_one` of the box office data.
+11. In Step 11, write a regular expression to match the three elements of `form_two` of the box office data.
+12. In Step 12, add the `parse_dollars()` function.
+13. In Step 13, add the code that cleans the box office column in the `wiki_movies_df` DataFrame using the `form_one` and `form_two` lists created in Steps 10 and 11, respectively.
+14. In Step 14, add code that cleans the budget column in the `wiki_movies_df` DataFrame.
+15. In Step 15, add code that cleans the release date column in the `wiki_movies_df` DataFrame.
+16. In Step 16, add code that cleans the running time column in the `wiki_movies_df` DataFrame.
+17. In Step 17, use the variables provided to create a path to the Wikipedia data, the Kaggle metadata, and the MovieLens rating data files.
+18. In Step 18, set the three variables in Step 17 equal to the function created in Deliverable 1.
+19. In Step 19, set the `wiki_movies_df` equal to the wiki_file variable.
+20. In Step 20, check the `wiki_movies_df` DataFrame
+
 **Image 4 (below): wiki_movies_df**
 ![wiki_movies_df](./Resources/Deliverable2_wiki_movies_df.png)
 
+21. In Step 21, add the columns from `wiki_movies_df` DataFrame to a list, and check the list
 
 **Image 5 (below): wiki_movies_df_columns_to_list.columns.to_list()**
 ![wiki_movies_df_columns_to_list](./Resources/Deliverable2_wiki_movies_df_columns_to_list.png)
