@@ -12,7 +12,7 @@ Britta needs to organize the data from Wikipedia and MovieLens in a structured f
 
 ## Purpose of this Assignment
 
-Britta and I worked together to Extract-Transform-Load the data from the 2 source to PostgreSQL.
+Britta and I worked together to Extract-Transform-Load the data from the 2 sources to PostgreSQL.
 
 Now, Amazing Prime wants to create an automated pipeline that takes in new data, performs the appropriate transformations, and loads the data into existing tables. I’ll need to refactor the code that I used to create one function that takes in the three files — Wikipedia data, Kaggle metadata, and the MovieLens rating data — and performs the ETL process by adding the data to a PostgreSQL database.
 
@@ -119,8 +119,8 @@ Now, Amazing Prime wants to create an automated pipeline that takes in new data,
 
 7. After the program has finished, run a query on the PostgreSQL database that counts all the columns for the `movies` and `ratings` tables.
 
-    **Image 10 (below): movies queries**
-    ![Loading ratings to PostgresSQL](./Resources/movies_query.png)
+**Image 10 (below): movies queries**
+![Loading ratings to PostgresSQL](./Resources/movies_query.png)
 
-    **Image 11 (below): ratings queries**
-    ![Loading ratings to PostgresSQL](./Resources/ratings_query.png)
+**Image 11 (below): ratings queries**
+![Loading ratings to PostgresSQL](./Resources/ratings_query.png)
