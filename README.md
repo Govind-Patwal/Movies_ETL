@@ -8,11 +8,13 @@ To inspire the team, have some fun and connect with the coding community, Amazin
 Britta, a member of the Amazin Prime video team, has been tasked with creating the datasets for the Hackathons. There are two data sources, a scrape of **wikipedia** for all moviese released since 1990, and rating data from **MovieLens** website.
 She will need to extract the data from the two sources, transform into one clean dataset and finally load that data into a SQL table.
 
-Britta wants help with this.
+Britta needs to organize the data from Wikipedia and MovieLens in a structured format before she can send it to SQL—and she's asked me to assist with this task.
 
 ## Purpose of this Assignment
 
+Britta and I worked together to Extract-Transform-Load the data from the 2 source to PostgreSQL.
 
+Now, Amazing Prime wants to create an automated pipeline that takes in new data, performs the appropriate transformations, and loads the data into existing tables. I’ll need to refactor the code that I used to create one function that takes in the three files — Wikipedia data, Kaggle metadata, and the MovieLens rating data — and performs the ETL process by adding the data to a PostgreSQL database.
 
 ## Assignment Steps
 
