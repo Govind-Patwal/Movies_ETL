@@ -65,17 +65,13 @@ Now, Amazing Prime wants to create an automated pipeline that takes in new data,
 19. In Step 19, set the `wiki_movies_df` equal to the wiki_file variable.
 20. In Step 20, check the `wiki_movies_df` DataFrame
 
-**Image 4 (below): wiki_movies_df**
-![wiki_movies_df](./Resources/Deliverable2_wiki_movies_df.png)
+    **Image 4 (below): wiki_movies_df**
+    ![wiki_movies_df](./Resources/Deliverable2_wiki_movies_df.png)
 
 21. In Step 21, add the columns from `wiki_movies_df` DataFrame to a list, and check the list
 
-**Image 5 (below): wiki_movies_df_columns_to_list.columns.to_list()**
-![wiki_movies_df_columns_to_list](./Resources/Deliverable2_wiki_movies_df_columns_to_list.png)
-
-
-
-
+    **Image 5 (below): wiki_movies_df_columns_to_list.columns.to_list()**
+    ![wiki_movies_df_columns_to_list](./Resources/Deliverable2_wiki_movies_df_columns_to_list.png)
 
 ### Deliverable 3
 
@@ -93,21 +89,19 @@ Now, Amazing Prime wants to create an automated pipeline that takes in new data,
 12. In Step 11, set the three variables from Step 17 of Deliverable 2 equal to the function created in Deliverable 1.
 13. In Step 12, set the DataFrames from the return statement after Step 9 equal to the file names in Step 11.
 14. In Step 13, check that your `wiki_movies_df` DataFrame is the same as in Deliverable 2.
-**Image 6 (below): wiki_movies_df**
-![wiki_movies_df](./Resources/Deliverable3_wiki_movies_df.png)
+
+    **Image 6 (below): wiki_movies_df**
+    ![wiki_movies_df](./Resources/Deliverable3_wiki_movies_df.png)
 
 15. In Step 14, check your `movies_with_ratings_df` DataFrame 
 
-**Image 7 (below): movies_with_ratings_df**
-![movies_with_ratings_df](./Resources/Deliverable3_movies_with_ratings_df.png)
+    **Image 7 (below): movies_with_ratings_df**
+    ![movies_with_ratings_df](./Resources/Deliverable3_movies_with_ratings_df.png)
 
 16. In Step 15, check that your `movies_df` DataFrame looks like this image:
 
-**Image 8 (below): movies_df**
-![movies](./Resources/Deliverable3_movies_df.png)
-
-
-
+    **Image 8 (below): movies_df**
+    ![movies](./Resources/Deliverable3_movies_df.png)
 
 ### Deliverable 4
 
