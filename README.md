@@ -117,7 +117,7 @@ Now, Amazing Prime wants to create an automated pipeline that takes in new data,
     **Image 9 (below): Loading ratings to PostgresSQL**
     ![Loading ratings to PostgresSQL](./Resources/Deliverable4_loading_ratings_to_SQL.PNG)
 
-7. After the program has finished, run a query on the PostgreSQL database that counts all the columns for the `movies` and `ratings` tables.
+7. After the program has finished, run a query on the **PostgreSQL** database that counts all the columns for the `movies` and `ratings` tables.
 
     **Image 10 (below): movies queries**    
     
