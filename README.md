@@ -79,11 +79,29 @@ Now, Amazing Prime wants to create an automated pipeline that takes in new data,
 
 ### Deliverable 3
 
+1. In Step 1, add the function you created in Deliverable 1 that reads in the three data files and creates the kaggle_metadata and ratings DataFrames.
+2. Before Step 2, add all the code you wrote for Deliverable 2.
+3. In Step 2, below the code that cleans the running time column in the wiki_movies_df DataFrame from Deliverable 2, add the code that cleans the Kaggle metadata.
+4. In Step 3, merge the wiki_movies_df DataFrame and the kaggle_metadata DataFrames, then name the new DataFrame, movies_df.
+5. In Step 4, drop unnecessary columns from the movies_df DataFrame.
+6. In Step 5, add the fill_missing_kaggle_data() function that fills in the missing Kaggle data on the movies_df DataFrame.
+7. In Step 6, call the fill_missing_kaggle_data() function with the movies_df DataFrame and the Kaggle and Wikipedia columns to be cleaned as the arguments.
+8. In Step 7, filter the movies_df DataFrame to keep the necessary columns.
+9. In Step 8, rename the columns in the movies_df DataFrame.
+10. In Step 9, transform and merge the ratings DataFrame with the movies_df DataFrame, name the new DataFrame movies_with_ratings_df, then clean the movies_with_ratings_df DataFrame.
+11. In Step 10, use the variables provided to create a path to the Wikipedia data, the Kaggle metadata, and the MovieLens rating data files.
+12. In Step 11, set the three variables from Step 17 of Deliverable 2 equal to the function created in Deliverable 1.
+13. In Step 12, set the DataFrames from the return statement after Step 9 equal to the file names in Step 11.
+14. In Step 13, check that your wiki_movies_df DataFrame is the same as in Deliverable 2.
 **Image 6 (below): wiki_movies_df**
 ![wiki_movies_df](./Resources/Deliverable3_wiki_movies_df.png)
 
+15. In Step 14, check your movies_with_ratings_df DataFrame 
+
 **Image 7 (below): movies_with_ratings_df**
 ![movies_with_ratings_df](./Resources/Deliverable3_movies_with_ratings_df.png)
+
+16. In Step 15, check that your movies_df DataFrame looks like this image:
 
 **Image 8 (below): movies_df**
 ![movies](./Resources/Deliverable3_movies_df.png)
