@@ -119,8 +119,8 @@ Now, Amazing Prime wants to create an automated pipeline that takes in new data,
 
 7. After the program has finished, run a query on the PostgreSQL database that counts all the columns for the `movies` and `ratings` tables.
 
-**Image 10 (below): movies queries**
-![Loading ratings to PostgresSQL](./Resources/movies_query.png)
+    **Image 10 (below): movies queries**
+    ![Movies Query](./Resources/movies_query.png)
 
-**Image 11 (below): ratings queries**
-![Loading ratings to PostgresSQL](./Resources/ratings_query.png)
+    **Image 11 (below): ratings queries**
+    ![Ratings Query](./Resources/ratings_query.png)
