@@ -59,12 +59,12 @@ Deliverable 3 - movies
 
 **Image 9 (below): Deliverable 4 - movies**
 Deliverable 3 - Loading ratings to PostgresSQL
-![Loading ratings to PostgresSQL](./Resources/Deliverable4_loading_ratings_to_SQL.png)
+![Loading ratings to PostgresSQL](./Resources/Deliverable4_loading_ratings_to_SQL.PNG)
 
 
 **Image 10 (below): Deliverable 4 - movies queries**
 Deliverable 3 - Loading ratings to PostgresSQL
-![Loading ratings to PostgresSQL](./Resources/movies_query.PNG)
+![Loading ratings to PostgresSQL](./Resources/movies_query.png)
 
 **Image 11 (below): Deliverable 4 - ratings queries**
 Deliverable 3 - Loading ratings to PostgresSQL
