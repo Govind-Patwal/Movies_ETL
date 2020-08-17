@@ -112,6 +112,7 @@ Now, Amazing Prime wants to create an automated pipeline that takes in new data,
 **Hint**: Use 'replace' for the if_exists parameter so that the movies_df DataFrame data won't be added to the table again.
 4. Before reading in the MovieLens `rating` CSV data, drop the ratings table in pgAdmin.
 5. Add the code that prints out the elapsed time to import each row.
+
 6. Run the program.
 
     **Image 9 (below): Loading ratings to PostgresSQL**
